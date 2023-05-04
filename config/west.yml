@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: moergo-sc
-      url-base: https://github.com/moergo-sc
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: moergo-sc
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
